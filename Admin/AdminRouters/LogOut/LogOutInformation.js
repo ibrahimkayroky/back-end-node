@@ -1,0 +1,1 @@
+const userObject = await query ( `select * from users where user_id = ${req.params.user_id}`);
